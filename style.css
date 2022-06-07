@@ -1,0 +1,62 @@
+body{
+    background-size: cover;
+    font-family: 'Hubballi', cursive;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+   padding: 10px 30px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ #show_sketch{
+    float: right;
+    margin-top: 10px;
+    margin-right: 2.5px;
+    font-weight: bolder;
+    width: 130px;
+    font-size: larger;
+}
+
+.copy_right_footer
+{
+  position: fixed;
+  background-color: ghostwhite;
+  color: black;
+  font-size: medium;
+  width:100%;
+  bottom: 0;
+  text-align: center;
+  line-height: 3;
+  font-weight: bolder;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+.modal-dialog{
+  width: 90%;
+}
+
+.instruction_image{
+  display: inline-block;
+  width: 45%;
+}
+
+video{
+  background:url("game_console1.png");  
+  background-size:cover;
+  padding:25px;
+}
+
