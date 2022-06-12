@@ -55,8 +55,9 @@ body{
 }
 
 video{
-  background:url("game_console1.png");  
+  background:url("game_console.png");
   background-size:cover;
   padding:25px;
+  width: max-content;
+  height: max-content;
 }
-

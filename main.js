@@ -18,15 +18,15 @@ function setup() {
 	video.size(800 , 400);
 	video.parent('game_console');
   
-	posenet = ml5.poseNet(video , modelLoaded);
-	poseNet.on('pose' , gotResults);
+	poseNet = ml5.poseNet(video , modelLoaded);
+	poseNet.on('pose' , gotPoses);
 }
 
 function modelLoaded(){
 	console.log("MODEL LOADED");
 }
 
-function gotResults(results){
+function gotPoses(results){
 
 if(results.length > 0){
 	noseX = results[0].pose.nose.x;
